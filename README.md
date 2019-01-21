@@ -27,8 +27,6 @@ Adresse de réseau de la carte WiFi : `10.33.0.0`
 
 Adresse de broadcast de la carte WiFi : `10.33.3.255/22` =>  00001010.00100001.00000011.11111111
 
-![alt text]( https://github.com/Sascha40/TP2-Reseau/blob/master/images/Capture%20d’écran%202019-01-21%20à%2011.53.13.png "capture") 
-
 **Afficher la gateway**
 
 Dans le terminal on tape `route -n get default`, on obtient `gateway: 10.33.3.253`
@@ -43,3 +41,68 @@ Dans le terminal on tape `route -n get default`, on obtient `gateway: 10.33.3.25
 + Clic droit sur le réseau *WIFI@YNOV*
 + Cliquer sur l'onglet *TCP/IP*
 ---
+---
+**A quoi sert la gateway dans le réseau d'Ingésup ?**
+
+Le gateway est l'adresse qui permet de communiquer avec internet.
+
+---
+**Calcul de la première et la dernière IP disponibles:**
+
+Première adresse IP disponible est `10.33.3.1`
+Dernière adresse IP disponible est `10.33.3.255`
+
+---
+---
+**Nmap :**
+
+Aprés l'installation de Nmap sur mac (qui à été fastidieuse), j'ai tapé la commande `nmap -sn -PE 10.33.0.0/22`
+
+```
+>Nmap scan report for 10.33.3.254
+Host is up (0.0093s latency).
+MAC Address: 94:0C:6D:84:50:C8 (Tp-link Technologies)
+Nmap scan report for 10.33.3.141
+Host is up.
+Nmap done: 1024 IP addresses (207 hosts up) scanned in 34.91 seconds
+MacBook-Pro-de-Sascha:~ saschasalles$ 
+```
+
+On remarque qu'il y a 1024 addresses IP dans le réseau.
+On peux s'attribuer une adresse IP dans se réseau via l'interface graphique.
+
+---
+## II. Exploration locale en duo
+
+Une fois les firewall désactivés on s'est connectés en RJ45.
+
+### Cablâge
+
+On s'est branché via RJ45 à nos adaptateur qu'on à acheté rien que pour toi 😉
+
+---
+### 3. Modification d'adresse IP
+
+
+Nous avons tout deux modifié l'adresse IP de notre carte Ethernet
+
+Adresse IP de Sascha : `10.0.0.2`
+
+Adresse IP de Mathis : `10.0.0.3`
+
+Masque de sous-réseau : `255.255.255.0`
+
+**Test avec le ping :**
+Statistiques Ping pour 10.0.0.3 :
+```
+--- 10.0.0.3 ping statistics ---
+19 packets transmitted, 19 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 0.663/0.901/1.218/0.132 ms
+MacBook-Pro-de-Sascha:~ saschasalles$ 
+```
+
+### 4. Utilisation d'un des deux comme gateway
+
+Mathis à désactiver sa carte Wifi.
+
+J'ai activé le partage internet. Mais helas sous nous ne pouvons pas acceder à la gateway de l'adaptateur RJ45.
