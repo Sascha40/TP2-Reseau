@@ -189,7 +189,7 @@ Le câble a un meilleur débit que la Wifi car les pertes sont restreintes et qu
 **explorer l'interface d'administration de votre box (chez vous) avec tout ça en tête**
 
 C'est fait via celle de SFR pour moi . 
-L'interface est accessible avec l'adresse 192.168.1.254, 
+L'interface est accessible avec l'adresse http://192.168.0.1, 
 Sur ce site il y a l'IP, la Wifi etc.
 
 ---
