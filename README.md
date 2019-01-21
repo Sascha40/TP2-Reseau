@@ -29,4 +29,4 @@ Adresse de réseau de la carte WiFi : `10.33.0.0`
 
 Adresse de broadcast de la carte WiFi : `10.33.3.255/22` =>  00001010.00100001.00000011.11111111
 
-![alt text]( "capture")
+![alt text]( https://github.com/Sascha40/TP2-Reseau/blob/master/images/Capture%20d’écran%202019-01-21%20à%2011.53.13.png "capture")
