@@ -147,5 +147,7 @@ Toujours dans notre dans le terminal, on tape la commande `sudo ipconfig set en0
 Avec la commande `system_profiler SPNetworkDataType`
 
 `Serveur DNS : 10.33.10.20`
+Bien que notre commande nous fourni aussi une deuxieme adresse IP du serveur DNS: la `10.33.10.7`
+![alt text](https://github.com/Sascha40/TP2-Reseau/blob/master/images/Capture%20d’écran%202019-01-21%20à%2017.47.47.png)
 
 ---
