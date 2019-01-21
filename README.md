@@ -106,3 +106,19 @@ MacBook-Pro-de-Sascha:~ saschasalles$
 Mathis à désactiver sa carte Wifi.
 
 J'ai activé le partage internet. Mais helas sous nous ne pouvons pas acceder à la gateway de l'adaptateur RJ45.
+
+### 5.Petit chat privé
+Après 2h passé à essayer de faire la commande nc -l -p 8888, sur le mac de mathis,ainsi que celui de fred, nous n'avons réussi à faire le chat. Nous ne pouvons pas configurer l'ip 182.168.1.12 sur l'adaptateur réseau Nous ne pouvons qu'écouter mais pas envoyer de message. Nous avons essayé sur une VM Linux, évidemment cela n'a pas marché. 
+
+### 6. WireShark
+On a pas forcement tout compris de ce truc, mais je te joins un screen des connexions que j'ai filtrer, meme si je vois pas l'interet.
+
+![alt text]()
+
+### 7. Firewall
+xxxx
+---
+## III. Exploration locale en duo
+
+
+
