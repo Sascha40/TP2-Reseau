@@ -28,3 +28,5 @@ Sur mac, on ouvre bash et on tape la commande `ifconfig`
 Adresse de réseau de la carte WiFi : `10.33.0.0`
 
 Adresse de broadcast de la carte WiFi : `10.33.3.255/22` =>  00001010.00100001.00000011.11111111
+
+![alt text]( "capture")
