@@ -16,13 +16,10 @@ Sur mac, on ouvre bash et on tape la commande `ifconfig`
 | ------------- |-------------|----------------|
 | Masque de sous-réseau      | 0xfffffc00 ou 255.255.252.0 | 11111111.11111111.11111100.00000000|
 | Adresse MAC      | f0:18:98:46:5c:b2 ||
-| Adresse IP (IPv4) | 10.33.3.141 |00001010.00100001.00000011.11111101|
+| Adresse IP (IPv4) | 10.33.3.141 |00001010.00100001.00000011.10001101|
 
 
-| NOM         | Carte Ethernet Ethernet |
-| ------------- |-------------|
-| Adresse MAC      | 10-65-30-74-17-F0      |
-| Adresse IP      | il n'y en a pas car c'est relié à un port RJ45|
+**Nous n'avons pas de carte ethernet, donc nous n'avons pas d'adresse ethernet**
 
 
 Adresse de réseau de la carte WiFi : `10.33.0.0`
