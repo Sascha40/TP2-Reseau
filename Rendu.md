@@ -151,3 +151,30 @@ Bien que notre commande nous fourni aussi une deuxieme adresse IP du serveur DNS
 ![alt text](https://github.com/Sascha40/TP2-Reseau/blob/master/images/Capture%20d’écran%202019-01-21%20à%2018.00.46.png)
 
 ---
+---
+
+**Nslookup**
+ 
+lookup de google.com :
+
+on tape dig google.com et on obtient `ANSWER SECTION: google.com. 172.217.22.142`.
+
+lookup de ynov.com :
+
+on tape dig ynov.com et on obtient `ANSWER SECTION: ynov.com. 217.70.184.38`.
+
+Reverse:
+
+Pour 78.78.21.21
+
+Sous mac nous faisons la commande suivante `dig -x 78.78.21.21 +short`
+Et on obtient `host-78-78-21-21.mobileonline.telia.com.`
+
+Pour 92.16.54.88
+
+Sous mac nous faisons la commande suivante `dig -x 92.16.54.88 +short`
+Et on obtient `host-92-16-54-88.as13285.net.`
+
+
+
+
