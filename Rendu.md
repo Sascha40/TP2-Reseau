@@ -190,7 +190,7 @@ Le câble a un meilleur débit que la Wifi car les pertes sont restreintes et qu
 
 C'est fait via celle de SFR pour moi . 
 L'interface est accessible avec l'adresse http://192.168.0.1, 
-Sur ce site il y a l'IP, la Wifi etc.
+Sur ce site il y a l'IP, les debits, la gateway, le dns, le dhcp, quasiment tous ce dont nous avons eu besoin dans ce tp.
 
 ---
 
