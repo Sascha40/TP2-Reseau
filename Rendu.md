@@ -1,4 +1,4 @@
-# TP2-Reseau
+# TP2-Reseau.  -- Sascha Sallès -- Mathis Bianco -- Frederic Charruyer
 Ce tp est entièrement réalisé sous le système macOs.
 
 ## I. Exploration locale en solo
