@@ -119,12 +119,13 @@ On a pas forcement tout compris de ce truc, mais je te joins un screen des conne
 xxxx
 ---
 ## III. Exploration locale en duo
-###DHCP
+### DHCP
 
 Pour savoir ça il faut aller dans Bash et taper `system_profiler SPNetworkDataType | grep "Server Identifier"` (oui on a mis beaucoup du temps à la trouver ;) )
 Il nous reponds :
 `Server Identifier: 10.33.3.254`
 
-
+Pour ce qui est de la durée du bail nous ne parvenons pas à trouver la durée du bail dhcp sur mac. Mais il y a un onglet duration sur la commande `system_profiler SPNetworkDataType`
+![alt text](https://github.com/Sascha40/TP2-Reseau/blob/master/images/Capture%20d’écran%202019-01-21%20à%2017.16.59.png)
 
 
