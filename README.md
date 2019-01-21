@@ -141,4 +141,11 @@ Cela évite à l'utilisateur de tout paramétrer ces IP manuellement.
 ---
 Toujours dans notre dans le terminal, on tape la commande `sudo ipconfig set en0 DHCP`
 
+### DNS
 
+
+Avec la commande `system_profiler SPNetworkDataType`
+
+`Serveur DNS : 10.33.10.20`
+
+---
