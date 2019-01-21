@@ -140,5 +140,5 @@ Cela évite à l'utilisateur de tout paramétrer ces IP manuellement.
 
 ---
 Toujours dans notre dans le terminal, on tape la commande `sudo ipconfig set en0 DHCP`
----
+
 
