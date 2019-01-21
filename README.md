@@ -19,6 +19,7 @@ Sur mac, on ouvre bash et on tape la commande `ifconfig`
 | Adresse IP (IPv4) | 10.33.3.141 |00001010.00100001.00000011.10001101|
 
 
+
 **Nous n'avons pas de carte ethernet, donc nous n'avons pas d'adresse ethernet**
 
 
@@ -26,4 +27,19 @@ Adresse de réseau de la carte WiFi : `10.33.0.0`
 
 Adresse de broadcast de la carte WiFi : `10.33.3.255/22` =>  00001010.00100001.00000011.11111111
 
-![alt text]( https://github.com/Sascha40/TP2-Reseau/blob/master/images/Capture%20d’écran%202019-01-21%20à%2011.53.13.png "capture")
+![alt text]( https://github.com/Sascha40/TP2-Reseau/blob/master/images/Capture%20d’écran%202019-01-21%20à%2011.53.13.png "capture") 
+
+**Afficher la gateway**
+
+Dans le terminal on tape `route -n get default`, on obtient `gateway: 10.33.3.253`
+
+---
+**GUI - Trouvez comment afficher les informations sur une carte IP :**
+
+
++ Clic sur la touche option puis sur l'icône *Wifi* du bureau,
+   + *Ouvrir les préférences réseau*
++ Cliquer sur *Avancé...*
++ Clic droit sur le réseau *WIFI@YNOV*
++ Cliquer sur l'onglet *TCP/IP*
+---
