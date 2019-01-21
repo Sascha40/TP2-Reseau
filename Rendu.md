@@ -175,6 +175,37 @@ Pour 92.16.54.88
 Sous mac nous faisons la commande suivante `dig -x 92.16.54.88 +short`
 Et on obtient `host-92-16-54-88.as13285.net.`
 
+Intrepretation: 
+C'est la même chose que pour le lookup mais dans l'autre sens. 
+C'est-à-dire que `78.78.21.21` est lié au nom de domaine host-78-78-21-21.mobileonline.telia.com
+
+### 3. Bonus
+
+**Se renseigner sur les différences entre WiFi et câble**
+Le câble a un meilleur débit que la Wifi car les pertes sont restreintes et que le signal ne peut etre altéré par les murs par exemple.
+
+---
+
+**explorer l'interface d'administration de votre box (chez vous) avec tout ça en tête**
+
+C'est fait via celle de SFR pour moi . 
+L'interface est accessible avec l'adresse 192.168.1.254, 
+Sur ce site il y a l'IP, la Wifi etc.
+
+---
+
+**sinon, elle sert à quoi la MAC si on a des IP ? => Se renseigner sur ARP**
+
+Une adresse IP est attribuée en fonction du réseau et celle-ci peut changer. 
+L'adresse MAC quant à elle, est physique en fonction de la carte réseau et ne change pas.
+
+---
+
+Nous ne possèdons pas de switch.
+
+---
+
+---
 
 
 
