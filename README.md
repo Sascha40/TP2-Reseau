@@ -126,6 +126,19 @@ Il nous reponds :
 `Server Identifier: 10.33.3.254`
 
 Pour ce qui est de la durée du bail nous ne parvenons pas à trouver la durée du bail dhcp sur mac. Mais il y a un onglet duration sur la commande `system_profiler SPNetworkDataType`
-![alt text](https://github.com/Sascha40/TP2-Reseau/blob/master/images/Capture%20d’écran%202019-01-21%20à%2017.16.59.png)
+![alt text](https://github.com/Sascha40/TP2-Reseau/blob/master/images/Capture%20d’écran%202019-01-21%20à%2017.47.47.png)
 
+---
+
+**A propos du DHCP**
+
+
+Nous pouvons dire que le DHCP signifie Dynamic Host Configuration Protocol (protocole de configuration automatiques des hôtes.)
+
+Il est chargé de la configuration automatique des adresses IP d'un réseau. 
+Cela évite à l'utilisateur de tout paramétrer ces IP manuellement.
+
+---
+Toujours dans notre dans le terminal, on tape la commande `sudo ipconfig set en0 DHCP`
+---
 
